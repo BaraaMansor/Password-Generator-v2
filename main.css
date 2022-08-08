@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: red green;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+  background-color: #3b3b98;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+}
+
+h2 {
+  margin: 1rem 0 2rem;
+}
+.container {
+  background: #23235b;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.2);
+  padding: 1.25rem;
+  width: 350px;
+  max-width: 100%;
+  margin-top: 10rem;
+}
+
+.main {
+  height: 100vh;
+}
+
+.result-container {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  padding: 12px 10px;
+  height: 50px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.result-container #result {
+  word-wrap: break-word;
+  max-width: calc(100% - 40px);
+}
+
+.result-container .btn {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.btn {
+  border: none;
+  background: #3b3b98;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+}
+
+.btn-large {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+/* The Features */
+
+.other-main {
+  text-align: center;
+  margin: 2rem;
+  font-size: 4rem;
+}
+
+.hero {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+html::-webkit-scrollbar {
+  width: 15px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  border: 4px solid transparent;
+}

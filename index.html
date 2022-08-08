@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+
+    <script
+      src="https://kit.fontawesome.com/d576db3feb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <h2>Password Generator</h2>
+
+        <div class="result-container">
+          <span id="result"></span>
+          <button class="btn" id="clipboard">
+            <i class="far fa-clipboard"></i>
+          </button>
+        </div>
+
+        <div class="settings">
+          <div class="setting">
+            <label>password length</label>
+            <input type="number" id="length" min="4" max="20" value="20" />
+          </div>
+
+          <div class="setting">
+            <label>Include uppercase letters</label>
+            <input type="checkbox" id="uppercase" checked />
+          </div>
+
+          <div class="setting">
+            <label>Include lowercase letters</label>
+            <input type="checkbox" id="lowercase" checked />
+          </div>
+
+          <div class="setting">
+            <label>Include numbers</label>
+            <input type="checkbox" id="numbers" checked />
+          </div>
+
+          <div class="setting">
+            <label>Include symbols</label>
+            <input type="checkbox" id="symbols" checked />
+          </div>
+        </div>
+
+        <button class="btn btn-large" id="generate">Generate Password</button>
+      </div>
+    </div>
+
+    <section class="secondary">
+      <h2 class="other-main">Other BS</h2>
+      <p class="hero">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+        voluptatum voluptatem, fuga iste architecto, corporis assumenda vero hic
+        temporibus accusantium voluptate quidem odit fugit alias saepe facilis,
+        inventore vitae dolorem aliquam eius natus maxime ipsam? Quae corrupti
+        ipsam tempora, facere est iste magni ab repellendus sapiente nihil
+        placeat delectus voluptatum earum odio quisquam optio sequi assumenda
+        obcaecati suscipit corporis eum quidem. Sapiente, dicta quas laudantium
+        hic itaque similique rerum consectetur aut velit nam? Aspernatur,
+        corrupti obcaecati molestias veritatis ad culpa, voluptatum consequuntur
+        error corporis enim nesciunt sint esse? Pariatur molestias asperiores
+        commodi odio sapiente quaerat saepe itaque cupiditate a libero.
+      </p>
+    </section>
+  </body>
+</html>
